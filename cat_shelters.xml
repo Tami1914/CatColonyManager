@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE shelters SYSTEM "cat_shelters.dtd">
+
+<shelters xmlns:shelter="http://www.w3.org/TR/html4/"
+    xmlns:employeer="http://www.w3.org/TR/html5/"
+    xmlns:adopter="http://www.w3.org/TR/html6/">
+    <shelter shelter_id="12345_A" isle="Tenerife">
+        <shelter:name>Master Cat</shelter:name>
+        <shelter:direction>Barranquillo Hondo</shelter:direction>
+        <employeers>
+            <employeer ss_num="5232323_G">
+                <employeer:name>Francisco Herrera</employeer:name>
+                <employeer:direction>
+                    <street>Calle Bélgica</street>
+                    <location>Candelaria</location>
+                    <postal_code>38530</postal_code>
+                </employeer:direction>
+            </employeer>
+        </employeers>
+        <cats_availables>
+            <cat_available cat_id="001">
+                <name_cat_available>Misi</name_cat_available>
+                <age unit_time="month">6</age>
+                <breed>Egipcio</breed>
+                <time unit_time="month">3</time>
+            </cat_available>
+            <cat_available cat_id="002">
+                <name_cat_available>Machitas</name_cat_available>
+                <age unit_time="month">2</age>
+                <breed>Bengali</breed>
+                <time unit_time="month">2</time>
+            </cat_available>
+        </cats_availables>
+        <cats_adopted>
+            <cat_adopted>
+                <name_cat>Pansito</name_cat>
+                <name_cat>Minué</name_cat>
+                <adopter>
+                    <adopter:name>María Valverde</adopter:name>
+                    <adopter:direction>
+                        <street>Calle Lisa Flor</street>
+                        <location>Icod de los Vinos</location>
+                        <postal_code>38438</postal_code>
+                    </adopter:direction>
+                    <numbers>
+                        <mobile>662059476</mobile>
+                    </numbers>
+                </adopter>
+            </cat_adopted>
+        </cats_adopted>
+    </shelter>
+    <shelter shelter_id="2445332_P" isle="Gran Canaria">
+        <shelter:name>El Rinconcito Salvaje</shelter:name>
+        <shelter:direction>C. Las Laderas del Rincón</shelter:direction>
+        <employeers>
+            <employeer ss_num="5233453_D">
+                <employeer:name>Fernando Martín</employeer:name>
+                <employeer:direction>
+                    <street>C. la Acequia</street>
+                    <location>El Rincón</location>
+                    <postal_code>35216</postal_code>
+                </employeer:direction>
+            </employeer>
+            <employeer ss_num="5311243_F">
+                <employeer:name>Marta Artiles</employeer:name>
+                <employeer:direction>
+                    <street>C. la Acequia</street>
+                    <location>El Rincón</location>
+                    <postal_code>35216</postal_code>
+                </employeer:direction>
+            </employeer>
+        </employeers>
+        <cats_availables>
+            <cat_available cat_id="001">
+                <name_cat_available>Luna</name_cat_available>
+                <age unit_time="month">11</age>
+                <breed>Persa</breed>
+                <time unit_time="month">5</time>
+            </cat_available>
+            <cat_available cat_id="002">
+                <name_cat_available>Asta</name_cat_available>
+                <age unit_time="year">1</age>
+                <breed>Siames</breed>
+                <time unit_time="month">2 month</time>
+            </cat_available>
+        </cats_availables>
+        <cats_adopted>
+            <cat_adopted>
+                <name_cat>Panbisito</name_cat>
+                <adopter>
+                    <adopter:name>Arturo Pecas</adopter:name>
+                    <adopter:direction>
+                        <street>C. José Miranda Naranjo</street>
+                        <location>El Rincón</location>
+                        <postal_code>35216</postal_code>
+                    </adopter:direction>
+                    <numbers>
+                        <mobile>662059476</mobile>
+                        <landline>922056843</landline>
+                    </numbers>
+                </adopter>
+            </cat_adopted>
+        </cats_adopted>
+    </shelter>
+</shelters>

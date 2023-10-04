@@ -1,0 +1,35 @@
+<!ELEMENT shelters (shelter+)>
+<!ELEMENT shelter (shelter:name,shelter:direction,employeers,cats_availables,cats_adopted)>
+<!ELEMENT shelter:name (#PCDATA)>
+<!ELEMENT shelter:direction (#PCDATA)>
+<!ELEMENT employeers (employeer+)>
+<!ELEMENT employeer (employeer:name,employeer:direction)>
+<!ELEMENT employeer:name (#PCDATA)>
+<!ELEMENT employeer:direction (street,location,postal_code)>
+<!ELEMENT cats_availables (cat_available*)>
+<!ELEMENT cat_available (name_cat_available,age,breed,time)>
+<!ELEMENT name_cat_available (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT breed (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT cats_adopted (cat_adopted*)>
+<!ELEMENT cat_adopted (name_cat+,adopter)>
+<!ELEMENT name_cat (#PCDATA)>
+<!ELEMENT adopter (adopter:name,adopter:direction,numbers)>
+<!ELEMENT adopter:name (#PCDATA)>
+<!ELEMENT adopter:direction (street,location,postal_code)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT postal_code (#PCDATA)>
+<!ELEMENT numbers (mobile?,landline?)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT landline (#PCDATA)>
+<!ATTLIST shelters xmlns:shelter CDATA #REQUIRED>
+<!ATTLIST shelters xmlns:employeer CDATA #REQUIRED>
+<!ATTLIST shelters xmlns:adopter CDATA #REQUIRED>
+<!ATTLIST employeer ss_num CDATA #REQUIRED>
+<!ATTLIST cat_available cat_id CDATA #REQUIRED>
+<!ATTLIST age unit_time CDATA #REQUIRED>
+<!ATTLIST time unit_time CDATA #REQUIRED>
+<!ATTLIST shelter shelter_id CDATA #REQUIRED>
+<!ATTLIST shelter isle CDATA #REQUIRED>
