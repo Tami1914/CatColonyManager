@@ -81,7 +81,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 ## Authors
 
   - **Aythami Sanchez García** Application Administrator and future Web Developer-
-    [PurpleBooth](https://github.com/PurpleBooth)
+    [Tami1914](https://github.com/Tami1914)
     
   - **Echedey Henríquez Hernández** Future Web Developer-
     [EchedeyHenr](https://github.com/EchedeyHenr)
